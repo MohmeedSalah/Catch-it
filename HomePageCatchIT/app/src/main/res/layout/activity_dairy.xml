@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0.1dp"
+    tools:context=".Dairy">
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#E8E3FD" />
+
+    <TextView
+        android:id="@+id/part8_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="10dp"
+        android:text="Milk $ Dairy Food"
+        android:textColor="@color/black"
+        android:background="@drawable/round_style"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/milk"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/milk" />
+    <TextView
+        android:id="@+id/milk_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12 L.E"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="35dp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/milk_remove"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/milk_add"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="100dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+"/>
+
+    <ImageView
+        android:id="@+id/yogurt"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/yogurt" />
+    <TextView
+        android:id="@+id/yogurt_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="120dp"
+        android:text="  5 L.E"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/yogurt_remove"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+    <Button
+        android:id="@+id/yogurt_add"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+" />
+
+    <ImageView
+        android:id="@+id/butter"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="225dp"
+        app:srcCompat="@drawable/butter" />
+    <TextView
+        android:id="@+id/butter_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50 L.E"
+        android:layout_marginTop="285dp"
+        android:layout_marginLeft="35dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/butter_remove"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="315dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+    <Button
+        android:id="@+id/butter_add"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="315dp"
+        android:layout_marginLeft="100dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+"/>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="225dp"
+        app:srcCompat="@drawable/yoghurt_rice" />
+    <TextView
+        android:id="@+id/yoghurtrice_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="285dp"
+        android:text="Yoghurt Rice,7 L.E"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/yoghurtrice_remove"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="315dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/yoghurtrice_add"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="315dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+" />
+
+    <ImageView
+        android:id="@+id/wh_cheese"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="390dp"
+        app:srcCompat="@drawable/wh_cheese" />
+    <TextView
+        android:id="@+id/wh_cheese_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="455dp"
+        android:text=" 10 L.E"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/wh_cheese_remove"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="480dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/wh_cheese_add"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="480dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+" />
+
+    <ImageView
+        android:id="@+id/ch_cheese"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="390dp"
+        app:srcCompat="@drawable/ch_cheese" />
+
+    <TextView
+        android:id="@+id/ch_cheese_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="455dp"
+        android:text="13 L.E"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/ch_cheese_remove"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="480dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+    <Button
+        android:id="@+id/ch_cheese_add"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="480dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+" />
+
+</RelativeLayout>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Meat"
+    android:paddingLeft="0.1dp">
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#E8E3FD" />
+
+    <TextView
+        android:id="@+id/part3_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_style"
+        android:text="Meats Part"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/beef" />
+
+    <TextView
+        android:id="@+id/beef_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beef,Price 100 L.E"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="35dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/beef_remove"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+
+
+    <Button
+        android:id="@+id/beef_add"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="100dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+"/>
+
+    <ImageView
+        android:id="@+id/chicken"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/chicken" />
+
+    <TextView
+        android:id="@+id/chicken_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="120dp"
+        android:text="Chickeb Meat,Price 65 L.E"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/chicken_remove"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+
+
+    <Button
+        android:id="@+id/chicken_add"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="225dp"
+        app:srcCompat="@drawable/duck" />
+
+
+    <TextView
+        android:id="@+id/duck_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="285dp"
+        android:text="Duck Meat,Price 80 L.E"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/duck_remove"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="315dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+
+
+    <Button
+        android:id="@+id/duck_add"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="315dp"
+        android:layout_marginLeft="100dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="225dp"
+        app:srcCompat="@drawable/pigeon" />
+
+
+    <TextView
+        android:id="@+id/pigeon_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="285dp"
+        android:text="Pigeon,Price 50 L.E"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/pigeon_remove"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="315dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/pigeon_add"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="315dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+" />
+
+    <ImageView
+        android:id="@+id/ostrich"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="390dp"
+        app:srcCompat="@drawable/ostrich" />
+
+    <TextView
+        android:id="@+id/ostrich_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="455dp"
+        android:text="Ostrich Meat,Price 10 L.E"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/ostrich_remove"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="480dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+
+
+    <Button
+        android:id="@+id/ostrich_add"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="100dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+"/>
+
+    <ImageView
+        android:id="@+id/rabbit"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="390dp"
+        app:srcCompat="@drawable/rabbit" />
+
+    <TextView
+        android:id="@+id/rabbit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="455dp"
+        android:text="Rabbit Meat,Price 120 L.E"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/rabbit_remove"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="480dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+
+
+    <Button
+        android:id="@+id/rabbit_add"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="480dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+" />
+
+</RelativeLayout>

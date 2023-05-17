@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fish">
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#E8E3FD" />
+    <TextView
+        android:id="@+id/part9_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"
+        android:text="Fishs $ Seafood"
+        android:textColor="@color/black"
+        android:background="@drawable/round_style"
+        android:textSize="35dp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/tuna"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/tuna" />
+    <TextView
+        android:id="@+id/tuna_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tuna,Price 30 L.E"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="35dp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/tuna_remove"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+
+
+    <Button
+        android:id="@+id/tuna_add"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="100dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+"/>
+
+    <ImageView
+        android:id="@+id/tilapia"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/tilapia" />
+
+    <TextView
+        android:id="@+id/tilapia_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="120dp"
+        android:text="Tilapia,Price 28 L.E"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/tilapia_remove"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+    <Button
+        android:id="@+id/tilapia_add"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+" />
+
+    <ImageView
+        android:id="@+id/herring"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="225dp"
+        android:src="@drawable/herring" />
+    <TextView
+        android:id="@+id/herring_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="herring,Price 50 L.E"
+        android:layout_marginTop="285dp"
+        android:layout_marginLeft="35dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/herring_remove"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="315dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+    <Button
+        android:id="@+id/herring_add"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="315dp"
+        android:layout_marginLeft="100dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+"/>
+
+    <ImageView
+        android:id="@+id/sardine"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="225dp"
+        android:src="@drawable/sardine" />
+    <TextView
+        android:id="@+id/sardine_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="285dp"
+        android:text="Sardine,Price 24 L.E"
+        android:textColor="@color/black" />
+    <Button
+        android:id="@+id/sardine_remove"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="315dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+    <Button
+        android:id="@+id/sardine_add"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="315dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+" />
+
+    <ImageView
+        android:id="@+id/shrimp"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="390dp"
+        android:src="@drawable/shrimp" />
+
+    <TextView
+        android:id="@+id/shrimp_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="455dp"
+        android:text="Shrimp,Price 100 L.E"
+        android:textColor="@color/black" />
+    <Button
+        android:id="@+id/shrimp_remove"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="480dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+    <Button
+        android:id="@+id/shrimp_add"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="100dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+"/>
+
+    <ImageView
+        android:id="@+id/sushi"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="390dp"
+        android:src="@drawable/sushi" />
+    <TextView
+        android:id="@+id/sushi_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="455dp"
+        android:text="Sushi,Price 150 L.E"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/sushi_remove"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="480dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+    <Button
+        android:id="@+id/sushi_add"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="480dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+" />
+
+</RelativeLayout>

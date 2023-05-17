@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cleaning"
+    android:paddingLeft="0.1dp">
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#E8E3FD" />
+    <TextView
+        android:id="@+id/part4_name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:text="Cleaning $ Household "
+        android:background="@drawable/round_style"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/clorox1"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/clorox" />
+
+    <TextView
+        android:id="@+id/clorox_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="120dp"
+        android:text=" Price     15 L.E"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/clorox_remove1"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+
+
+    <Button
+        android:id="@+id/clorox_add1"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+" />
+
+    <ImageView
+        android:id="@+id/dettol1"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/dettol" />
+
+    <TextView
+        android:id="@+id/dettol_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="120dp"
+        android:text="  Price      20 L.E"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/dettol_remove1"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+
+
+    <Button
+        android:id="@+id/dettol_add1"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+" />
+
+    <ImageView
+        android:id="@+id/wyx1"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="225dp"
+        app:srcCompat="@drawable/wux" />
+
+    <TextView
+        android:id="@+id/wyx_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="285dp"
+        android:text="Price      20 L.E"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/wyx_remove1"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="315dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+
+
+    <Button
+        android:id="@+id/wyx_add1"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="315dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+" />
+
+
+    <ImageView
+        android:id="@+id/fairy1"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="225dp"
+        app:srcCompat="@drawable/fairy" />
+
+
+    <TextView
+        android:id="@+id/fairy_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="285dp"
+        android:text="  Price      18 L.E"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/fairy_remove1"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="315dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/fairy_add1"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="315dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+" />
+
+
+    <ImageView
+        android:id="@+id/oxi1"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="390dp"
+        app:srcCompat="@drawable/oxi" />
+
+
+    <TextView
+        android:id="@+id/oxi_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="455dp"
+        android:text="Price   10 L.E"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/oxi_remove1"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="480dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+
+
+    <Button
+        android:id="@+id/oxi_add1"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="100dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+"/>
+
+    <ImageView
+        android:id="@+id/houseware1"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="390dp"
+        app:srcCompat="@drawable/houseware" />
+
+
+    <TextView
+        android:id="@+id/houseware_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="455dp"
+        android:text="Houseware     150 L.E"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/houseware_remove1"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="480dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+
+
+    <Button
+        android:id="@+id/houseware_add1"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="480dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+" />
+
+</RelativeLayout>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0.1dp"
+    tools:context=".Bevarages">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#E8E3FD" />
+
+    <TextView
+        android:id="@+id/part6_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_style"
+        android:text="Beverages Part"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/tea"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/tea" />
+
+    <TextView
+        android:id="@+id/tea_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="120dp"
+        android:text=" Tea,Price 5 L.E"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black" />
+
+    <Button
+        android:id="@+id/tea_remove"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:backgroundTint="#E8E3FD"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/tea_add"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+" />
+
+    <ImageView
+        android:id="@+id/coffee"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/coffee" />
+
+    <TextView
+        android:id="@+id/coffee_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="120dp"
+        android:text="  Coffee,Price 10 L.E"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/coffee_remove"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/coffee_add"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+" />
+
+    <ImageView
+        android:id="@+id/nescafe"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="225dp"
+        app:srcCompat="@drawable/nescafe" />
+
+    <TextView
+        android:id="@+id/nescafe_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="285dp"
+        android:text="   Nescafe,8 L.E"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/nescafe_remove"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="315dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/nescafe_add"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="315dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+" />
+
+    <ImageView
+        android:id="@+id/icecoffee"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="225dp"
+        app:srcCompat="@drawable/icecoffee" />
+
+
+    <TextView
+        android:id="@+id/icecoffee_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="285dp"
+        android:text="      ice_Cof,20 L.E"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/icecoffee_remove"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="315dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/icecoffee_add"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="315dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+" />
+
+    <ImageView
+        android:id="@+id/pepsi"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="390dp"
+        app:srcCompat="@drawable/pepsi" />
+
+    <TextView
+        android:id="@+id/pepsi_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="455dp"
+        android:text="Pepsie,Price 7 L.E"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/pepsi_remove"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="480dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/pepsi_add"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="480dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+" />
+
+    <ImageView
+        android:id="@+id/juice"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="390dp"
+        app:srcCompat="@drawable/juice" />
+
+    <TextView
+        android:id="@+id/juice_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="455dp"
+        android:text="Juice,Price 25 L.E"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/juice_remove"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="480dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+
+
+    <Button
+        android:id="@+id/juice_add"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="480dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+" />
+
+</RelativeLayout>

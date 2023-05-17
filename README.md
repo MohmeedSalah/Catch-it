@@ -1,0 +1,3 @@
+# CatchIT
+The idea of this application to save our customers time , cause what they need it may be is not available in the store in this time ,so our project is an application for a specific super market that provides for the users to know what available in the store and what is sold out ,the user has the option to select all his needs , to know at the end the cost of it , there is also a section for the offers in the market ,so this will provide for our customers to do a virtual shopping that save there time and also it helps people who afraid of corona so it safe more for them to know first if there needs available or not . 
+# Catch-it

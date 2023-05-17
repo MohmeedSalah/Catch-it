@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0.1dp"
+    tools:context=".Strach">
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#E8E3FD" />
+
+    <TextView
+        android:id="@+id/part5_name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_style"
+        android:text="Packaged "
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/precise1"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/precise" />
+
+    <TextView
+        android:id="@+id/precise_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price    10 L.E"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="35dp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/precise_remove1"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+
+
+    <Button
+        android:id="@+id/precise_add1"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+" />
+
+    <ImageView
+        android:id="@+id/rice"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/rice" />
+
+    <TextView
+        android:id="@+id/rice_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="120dp"
+        android:text="  Price      25 L.E"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/rice_remove"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+
+
+    <Button
+        android:id="@+id/rice_add"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+" />
+
+    <ImageView
+        android:id="@+id/lentil"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="225dp"
+        app:srcCompat="@drawable/lentil" />
+
+
+    <TextView
+        android:id="@+id/lentil_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lentil,  Price  24 L.E"
+        android:layout_marginTop="285dp"
+        android:layout_marginLeft="35dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/lentil_remove"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="315dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+
+
+    <Button
+        android:id="@+id/lentil_add"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="315dp"
+        android:layout_marginLeft="100dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+"/>
+
+    <ImageView
+        android:id="@+id/starch"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="225dp"
+        app:srcCompat="@drawable/starch" />
+
+
+    <TextView
+        android:id="@+id/starch_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="285dp"
+        android:text="  Price    13 L.E"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/starch_remove"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="315dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+    <Button
+        android:id="@+id/starch_add"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="315dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+" />
+
+    <ImageView
+        android:id="@+id/pasta"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="390dp"
+        app:srcCompat="@drawable/pasta" />
+
+    <TextView
+        android:id="@+id/pasta_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="455dp"
+        android:text="Pasta  ,Price 12 L.E"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/pasta_remove"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="480dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+
+
+    <Button
+        android:id="@+id/pasta_add"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="100dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+"/>
+
+    <ImageView
+        android:id="@+id/spaghetti"
+        android:layout_width="158dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="390dp"
+        app:srcCompat="@drawable/spaghetti" />
+
+    <TextView
+        android:id="@+id/spaghetti_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="455dp"
+        android:text="Spaghetti, Price 12 L.E"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/spaghetti_remove"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="480dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="-" />
+
+
+    <Button
+        android:id="@+id/spaghetti_add"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="480dp"
+        android:backgroundTint="#E8E3FD"
+        android:text="+" />
+
+</RelativeLayout>

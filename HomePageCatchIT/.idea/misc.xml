@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/salwa/OneDrive/Desktop/HomePageCatchIT/app/src/main/res/drawable-v24/circle.xml" value="0.1" />
+        <entry key="..\:/Users/salwa/OneDrive/Desktop/HomePageCatchIT/app/src/main/res/drawable/colors.xml" value="0.1335" />
+        <entry key="..\:/Users/salwa/OneDrive/Desktop/HomePageCatchIT/app/src/main/res/drawable/custom_input.xml" value="0.1" />
+        <entry key="..\:/Users/salwa/OneDrive/Desktop/HomePageCatchIT/app/src/main/res/drawable/email.xml" value="0.1475" />
+        <entry key="..\:/Users/salwa/OneDrive/Desktop/HomePageCatchIT/app/src/main/res/drawable/layout_button.xml" value="0.1335" />
+        <entry key="..\:/Users/salwa/OneDrive/Desktop/HomePageCatchIT/app/src/main/res/drawable/password_lock.xml" value="0.1335" />
+        <entry key="..\:/Users/salwa/OneDrive/Desktop/HomePageCatchIT/app/src/main/res/drawable/person.xml" value="0.1335" />
+        <entry key="..\:/Users/salwa/OneDrive/Desktop/HomePageCatchIT/app/src/main/res/drawable/round_style.xml" value="0.1335" />
+        <entry key="..\:/Users/salwa/OneDrive/Desktop/HomePageCatchIT/app/src/main/res/layout/activity_account.xml" value="0.2" />
+        <entry key="..\:/Users/salwa/OneDrive/Desktop/HomePageCatchIT/app/src/main/res/layout/activity_admin_delete.xml" value="0.25" />
+        <entry key="..\:/Users/salwa/OneDrive/Desktop/HomePageCatchIT/app/src/main/res/layout/activity_admin_insert.xml" value="0.2359375" />
+        <entry key="..\:/Users/salwa/OneDrive/Desktop/HomePageCatchIT/app/src/main/res/layout/activity_bevarages.xml" value="0.23055555555555557" />
+        <entry key="..\:/Users/salwa/OneDrive/Desktop/HomePageCatchIT/app/src/main/res/layout/activity_breads.xml" value="0.25" />
+        <entry key="..\:/Users/salwa/OneDrive/Desktop/HomePageCatchIT/app/src/main/res/layout/activity_cart.xml" value="0.25" />
+        <entry key="..\:/Users/salwa/OneDrive/Desktop/HomePageCatchIT/app/src/main/res/layout/activity_cleaning.xml" value="0.25" />
+        <entry key="..\:/Users/salwa/OneDrive/Desktop/HomePageCatchIT/app/src/main/res/layout/activity_dairy.xml" value="0.25" />
+        <entry key="..\:/Users/salwa/OneDrive/Desktop/HomePageCatchIT/app/src/main/res/layout/activity_first.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/salwa/OneDrive/Desktop/HomePageCatchIT/app/src/main/res/layout/activity_fish.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/salwa/OneDrive/Desktop/HomePageCatchIT/app/src/main/res/layout/activity_friut.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/salwa/OneDrive/Desktop/HomePageCatchIT/app/src/main/res/layout/activity_list_of_departments.xml" value="0.10925925925925926" />
+        <entry key="..\:/Users/salwa/OneDrive/Desktop/HomePageCatchIT/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/salwa/OneDrive/Desktop/HomePageCatchIT/app/src/main/res/layout/activity_main.xml" value="0.24635416666666668" />
+        <entry key="..\:/Users/salwa/OneDrive/Desktop/HomePageCatchIT/app/src/main/res/layout/activity_meat.xml" value="0.23055555555555557" />
+        <entry key="..\:/Users/salwa/OneDrive/Desktop/HomePageCatchIT/app/src/main/res/layout/activity_offers.xml" value="0.25" />
+        <entry key="..\:/Users/salwa/OneDrive/Desktop/HomePageCatchIT/app/src/main/res/layout/activity_register.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/salwa/OneDrive/Desktop/HomePageCatchIT/app/src/main/res/layout/activity_strach.xml" value="0.2359375" />
+        <entry key="..\:/Users/salwa/OneDrive/Desktop/HomePageCatchIT/app/src/main/res/layout/activity_vegetables.xml" value="0.17395833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

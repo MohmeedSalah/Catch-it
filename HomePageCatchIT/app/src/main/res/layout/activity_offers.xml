@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:id="@+id/horiscroll">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="Health and Beauty" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="Spices" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="Milk and Dairy food" />
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="Bakery" />
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="Cleaning and House hold" />
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="Fish and Sea food" />
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="Meat" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ScrollView
+        android:id="@+id/verscroll"
+        android:layout_width="421dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tex1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Health and Beauty"
+                android:textColor="#26083A"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/HB1"
+                android:layout_width="137dp"
+                android:layout_height="136dp"
+                android:layout_margin="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/download" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="30dp"
+                android:text="Huda beauty set 15% off"
+                android:textColor="@color/black"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="80dp"
+                android:layout_marginBottom="30dp"
+                android:text="300EG"
+                android:textColor="@color/black"></TextView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp">
+
+                <Button
+                    android:id="@+id/btn2HB1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#E8E3FD"
+                    android:text="-" />
+
+                <Button
+                    android:id="@+id/btn1HB1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="195dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#E8E3FD"
+                    android:text="+" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/HB2"
+                android:layout_width="139dp"
+                android:layout_height="122dp"
+                android:layout_margin="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/images" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="30dp"
+                android:text="Blueberry perfume 10% off"
+                android:textColor="@color/black"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="80dp"
+                android:layout_marginBottom="30dp"
+                android:text="150 EG"
+                android:textColor="@color/black"></TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp">
+
+                <Button
+                    android:id="@+id/btn2HP2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#E8E3FD"
+                    android:text="-" />
+
+                <Button
+                    android:id="@+id/btn1HP2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="195dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#E8E3FD"
+                    android:text="+" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tex2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Spices"
+                android:textColor="#26083A"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/SP1"
+                android:layout_width="137dp"
+                android:layout_height="136dp"
+                android:layout_margin="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/cloves" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="30dp"
+                android:text="clove 10% off"
+                android:textColor="@color/black"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="80dp"
+                android:layout_marginBottom="30dp"
+                android:text="300EG/k"
+                android:textColor="@color/black"></TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp">
+
+                <Button
+                    android:id="@+id/btn2SP1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#E8E3FD"
+                    android:text="-" />
+
+                <Button
+                    android:id="@+id/btn1SP1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="195dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#E8E3FD"
+                    android:text="+" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/SP2"
+                android:layout_width="153dp"
+                android:layout_height="153dp"
+                android:layout_margin="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/cumin" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="60dp"
+                android:layout_marginBottom="30dp"
+                android:text="cumin 5% off"
+                android:textColor="@color/black"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="80dp"
+                android:layout_marginBottom="20dp"
+                android:text="150 EG/k"
+                android:textColor="@color/black"></TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp">
+
+                <Button
+                    android:id="@+id/btn2SP2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#E8E3FD"
+                    android:text="-" />
+
+                <Button
+                    android:id="@+id/btn1SP2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="195dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#E8E3FD"
+                    android:text="+" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tex3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Bakery"
+                android:textColor="#26083A"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/BK1"
+                android:layout_width="173dp"
+                android:layout_height="152dp"
+                android:layout_margin="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/loaf" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:layout_marginBottom="30dp"
+                android:text="Bread Loaf 5% off"
+                android:textColor="@color/black"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="80dp"
+                android:layout_marginBottom="30dp"
+                android:text="20EG"
+                android:textColor="@color/black"></TextView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:layout_marginBottom="30dp">
+
+                <Button
+                    android:id="@+id/btn2BK1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_toStartOf="@+id/btn1BK1"
+                    android:layout_weight="1"
+                    android:backgroundTint="#E8E3FD"
+                    android:text="-" />
+
+                <Button
+                    android:id="@+id/btn1BK1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="195dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#E8E3FD"
+                    android:text="+" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/BK2"
+                android:layout_width="162dp"
+                android:layout_height="154dp"
+                android:layout_margin="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/toast" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="30dp"
+                android:text="Fresh baked Toast 10% off"
+                android:textColor="@color/black"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="80dp"
+                android:layout_marginBottom="30dp"
+                android:text=" 30EG"
+                android:textColor="@color/black"></TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="30dp">
+
+                <Button
+                    android:id="@+id/btn2BK2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toStartOf="@+id/btn1BK2"
+                    android:layout_weight="1"
+                    android:backgroundTint="#E8E3FD"
+                    android:text="-" />
+
+                <Button
+                    android:id="@+id/btn1BK2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="195dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#E8E3FD"
+                    android:text="+" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tex4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Milk and Dairy food"
+                android:textColor="#26083A"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/MD1"
+                android:layout_width="126dp"
+                android:layout_height="193dp"
+                android:layout_margin="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/laverycheese" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="30dp"
+                android:text="Lavery cheese instead of 300EG"
+                android:textColor="@color/black"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="80dp"
+                android:layout_marginBottom="30dp"
+                android:text="250 EG/k "
+                android:textColor="@color/black"></TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp">
+
+                <Button
+                    android:id="@+id/btn2MD1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#E8E3FD"
+                    android:text="-" />
+
+                <Button
+                    android:id="@+id/btn1MD1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="195dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#E8E3FD"
+                    android:text="+" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/MD2"
+                android:layout_width="147dp"
+                android:layout_height="200dp"
+                android:layout_margin="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/lmarmilk" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="30dp"
+                android:text="Lamar Milk 27 EG instead of with small carton gift"
+                android:textColor="@color/black"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="80dp"
+                android:layout_marginBottom="30dp"
+                android:text=" 28.5 EG"
+                android:textColor="@color/black"></TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="102dp"
+                android:layout_marginBottom="30dp">
+
+                <Button
+                    android:id="@+id/btn2MD2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toStartOf="@+id/btn1MD2"
+                    android:layout_weight="1"
+                    android:backgroundTint="#E8E3FD"
+                    android:text="-" />
+
+                <Button
+                    android:id="@+id/btn1MD2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="195dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#E8E3FD"
+                    android:text="+" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tex5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Meat"
+                android:textColor="#26083A"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/M1"
+                android:layout_width="107dp"
+                android:layout_height="90dp"
+                android:layout_margin="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/cowmeat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="30dp"
+                android:text="Entercote 300 EG/k instead of 310 EG/k"
+                android:textColor="@color/black"></TextView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btn2M1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toStartOf="@+id/btn1M1"
+                    android:layout_weight="1"
+                    android:backgroundTint="#E8E3FD"
+                    android:text="-" />
+
+                <Button
+                    android:id="@+id/btn1M1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="195dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#E8E3FD"
+                    android:text="+" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/M2"
+                android:layout_width="156dp"
+                android:layout_height="131dp"
+                android:layout_margin="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/steak" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="30dp"
+                android:text="Rip I 310 EG/k instead of 320 EG/k"
+                android:textColor="@color/black"></TextView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="103dp"
+                android:layout_marginBottom="30dp">
+
+                <Button
+                    android:id="@+id/btn2M2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toStartOf="@+id/btn1M2"
+                    android:layout_weight="1"
+                    android:backgroundTint="#E8E3FD"
+                    android:text="-" />
+
+                <Button
+                    android:id="@+id/btn1M2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="195dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#E8E3FD"
+                    android:text="+" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tex6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Fish and Sea food"
+                android:textColor="#26083A"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/FS1"
+                android:layout_width="173dp"
+                android:layout_height="172dp"
+                android:layout_margin="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/salmon" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="30dp"
+                android:text="Salmon 300 EG/k instead of 320 EG/k"
+                android:textColor="@color/black"></TextView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btn2FS1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toStartOf="@+id/btn1FS1"
+                    android:layout_weight="1"
+                    android:backgroundTint="#E8E3FD"
+                    android:text="-" />
+
+                <Button
+                    android:id="@+id/btn1FS1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="195dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#E8E3FD"
+                    android:text="+" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/FS2"
+                android:layout_width="173dp"
+                android:layout_height="172dp"
+                android:layout_margin="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/fish" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="30dp"
+                android:text="Bolty Fish 40 EG/k instead of 45 EG/k"
+                android:textColor="@color/black"></TextView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:layout_marginBottom="30dp">
+
+                <Button
+                    android:id="@+id/btn2FS2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toStartOf="@+id/btn1FS2"
+                    android:layout_weight="1"
+                    android:backgroundTint="#E8E3FD"
+                    android:text="-" />
+
+                <Button
+                    android:id="@+id/btn1FS2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="195dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#E8E3FD"
+                    android:text="+" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tex7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Cleaning and House hold"
+                android:textColor="#26083A"
+                android:textSize="20sp"></TextView>
+
+            <ImageView
+                android:id="@+id/CH1"
+                android:layout_width="200dp"
+                android:layout_height="162dp"
+                android:layout_margin="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/harbic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="30dp"
+                android:text="Harbic 29 EG instead of 25 EG"
+                android:textColor="@color/black"></TextView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp">
+
+                <Button
+                    android:id="@+id/btn2CH1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#E8E3FD"
+                    android:text="-" />
+
+                <Button
+                    android:id="@+id/btn1CH1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="195dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#E8E3FD"
+                    android:text="+" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/CH2"
+                android:layout_width="177dp"
+                android:layout_height="206dp"
+                android:layout_margin="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/color" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="30dp"
+                android:text="Clorox set 55 EG 15% off"
+                android:textColor="@color/black"></TextView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp">
+
+                <Button
+                    android:id="@+id/btn2CH2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#E8E3FD"
+                    android:text="-" />
+
+                <Button
+                    android:id="@+id/btn1CH2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="195dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#E8E3FD"
+                    android:text="+" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
